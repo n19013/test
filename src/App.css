@@ -1,0 +1,19 @@
+.Card {
+    text-align: center;
+     padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #008000;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+  position: relative;
+  background: -webkit-repeating-linear-gradient(-45deg, #00FFFF, #00FFFF 2px, #fff 2px, #fff 4px);
+  background: repeating-linear-gradient(-45deg, #00FFFF, #00FFFF 2px, #fff 2px, #fff 4px);
+  border-radius: 7px;
+}
+
+
+.data {
+background-color: 	#2E8B57;
+color: #FFFFFF; 
+}
+
