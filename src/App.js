@@ -58,7 +58,7 @@ class App extends React.Component {
 
     const options = { method: 'get' }
     const uri =
-      'http://api.openweathermap.org/data/2.5/weather?lang=ja&units=metric'
+      'https://api.openweathermap.org/data/2.5/weather?lang=ja&units=metric'
     const params = `&appid=${this.apiToken}&id=${id}`
     const data = await getJSON(uri + params, options)
     this.setState({ item: data })

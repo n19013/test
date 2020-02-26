@@ -39,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "homepage": "http://n19013.github.io/test"
 }
